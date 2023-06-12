@@ -15,7 +15,7 @@ const App = () => {
         <h2>About Me</h2>
         {/* Add recent photo or avatar and a short bio about the developer */}
         <div>
-        <img src="./public/img/profilepic.png" alt="Developer Avatar" />
+        <img src="/img/profilepic.png" alt="Developer Avatar" />
 
           <p>I am a military veteran with a demonstrated track record of excellence in various roles. Currently employed as an IT Specialist at the US Environmental Protection Agency, I provide support in application software development and coding. I have certifications in IT with commitment to continuous academic growth. My leadership skills and commitment to personal and professional development make me a valuable asset. I have experience managing programs and ensuring compliance in the healthcare sector. With strong problem-solving, communication, and technical skills, I excel in delivering results and contributing to organizational success. </p>
         </div>
@@ -26,10 +26,10 @@ const App = () => {
         {/* Render multiple instances of Project component with project data */}
         <div className="projects-container">
         <Project
-          title="Module 1"
-          image="Module1.jpg"
-          deployedLink="https://example.com/project1"
-          githubLink="https://github.com/username/project1"
+          title="Code Refactor"
+          image="/img/code refactor.jpg"
+          deployedLink="https://seicram.github.io/Code-Refactor/"
+          githubLink="https://github.com/Seicram/Code-Refactor"
         />
         <Project
           title="Module 2"

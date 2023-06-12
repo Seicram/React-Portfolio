@@ -61,7 +61,7 @@
 
 .project-card-back {
   background-color: #d1f0a03b;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -69,12 +69,23 @@
   text-align: center; /* optional: align the text in the center horizontally */
 }
 
-.project-card-back h3 {
-  margin: 0;
-  margin-bottom: 10px; /* optional: add spacing between the title and links */
+.project-card-back {
+  /* Existing styles */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* Other styles */
 }
 
 .project-links {
   display: flex;
-  justify-content: center; /* center the links horizontally */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.project-links a {
+  margin: 10px 0;
 }
