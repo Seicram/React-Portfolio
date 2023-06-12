@@ -1,4 +1,4 @@
-/* Add component-specific styles for App.js */
+/* App.css */
 
 .App {
     padding: 20px;
@@ -35,5 +35,12 @@
   
   ul li {
     margin-bottom: 10px;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
   
