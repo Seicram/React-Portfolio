@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.css';
 
-const Project = ({ title, image, deployedLink, githubLink }) => {
+const Project = ({ title, image, description, deployedLink, githubLink }) => {
   return (
     <div className="project-card">
       <div className="project-card-inner">
@@ -10,6 +10,7 @@ const Project = ({ title, image, deployedLink, githubLink }) => {
         </div>
         <div className="project-card-back">
           <h3>{title}</h3>
+          <p className="project-description">{description}</p>
           <div className="project-links">
             <a href={deployedLink}>Deployed Application</a>
             <a href={githubLink}>GitHub Repository</a>
