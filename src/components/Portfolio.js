@@ -120,7 +120,7 @@ const Portfolio = () => {
         />
         <Project
           title="Text Editor"
-          image="../img/inprogress.png"
+          image="../img/texteditor.png"
           description="This application is a text editor that allows the user to create, edit, and save text files. This application uses Node.js, Electron, and the Ace editor."
           deployedLink="https://example.com/Text Editor"
           githubLink="https://github.com/Seicram/Text-Editor"
@@ -134,21 +134,21 @@ const Portfolio = () => {
         />
         <Project
           title="Book Search Engine"
-          image="../img/inprogress.png"
+          image="../img/booksearch.png"
           description="This application is a book search engine that uses the Google Books API. This application uses the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API."
           deployedLink="https://example.com/Book Search Engine"
           githubLink="https://example.com/Book-Search-Engine"
         />
         <Project
           title="Extra Credit Assignment"
-          image="../img/inprogress.png"
+          image="../img/extra.png"
           description="This application is an extra credit assignment."
           deployedLink="https://example.com/Extra Credit Assignment"
           githubLink="https://example.com/Extra Credit Assignment"
         />
         <Project
           title="Project 3"
-          image="../img/inprogress.png"
+          image="../img/p3.png"
           deployedLink="https://example.com/project3"
           githubLink="https://example.com/Project-3"
         />
