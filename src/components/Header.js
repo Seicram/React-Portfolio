@@ -1,14 +1,13 @@
 import React from 'react';
 import Navigation from './Navigation';
 
-const Header = () => {
+const Header = ({ showNavigation }) => {
   return (
-    <header>
-      <h1>Marcies Smith</h1>
-      <Navigation />
+    <header style={{ textAlign: 'center' }}>
+
+      {showNavigation && <Navigation />}
     </header>
   );
 };
 
 export default Header;
-

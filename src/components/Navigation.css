@@ -1,0 +1,24 @@
+.nav-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #440303;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+  transition: box-shadow 0.3s;
+}
+
+.nav-button:hover {
+  background-color: #e0e0e0;
+}
+
+.active {
+  background-color: rgb(179, 135, 135);
+  color: rgb(148, 4, 4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
