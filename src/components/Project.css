@@ -16,8 +16,8 @@
   margin-left: 0px;
   margin-right: 50px;
   border-radius: 15px; /* Add rounded corners */
-  overflow: visible hidden; /* Hide scrollbars */
 }
+
 .project-card-inner {
   width: 100%;
   height: 100%;
@@ -25,6 +25,8 @@
   transform-style: preserve-3d;
   transition: transform 0.5s;
   transform: rotateX(0deg);
+  shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px; /* Add rounded corners */
 }
 
 .project-card:hover .project-card-inner {

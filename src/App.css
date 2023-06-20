@@ -64,5 +64,12 @@ body {
     background-color: #8e9775; /* Color 1 */
   }
 }
-  
-  
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  text-align: center;
+}
