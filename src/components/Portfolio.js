@@ -64,7 +64,7 @@ const Portfolio = () => {
         />
         <Project
           title="SVG Logo Maker"
-          image="../img/svg.png"
+          image="../img/svglogo.png"
           description="This application can be used to create a logo using SVG elements. This application uses Node.js, Inquirer, and SVG.js."
           deployedLink="https://drive.google.com/file/d/1So-WQX4MdkvM_4VQFqJXwZ4IC_YpS-UC/view"
           githubLink="https://github.com/Seicram/SVG-Logo-Maker-"
