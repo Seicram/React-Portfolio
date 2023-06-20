@@ -8,7 +8,7 @@ const Portfolio = () => {
       <div className="projects-container">
       <Project
           title="Code Refactor"
-          image="../img/code refactor.png"
+          image="../img/coderefactor.png"
           description="This was to refactor the code for a website to make it more accessible."
           deployedLink="https://seicram.github.io/Code-Refactor/"
           githubLink="https://github.com/Seicram/Code-Refactor"
