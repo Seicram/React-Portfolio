@@ -87,7 +87,7 @@ const Portfolio = () => {
           title="E-commerce Back End"
           image="../img/ecommerce.png"
           description="This application can be used to manage the back end of an e-commerce site. This application uses Express.js API and Sequelize to interact with a MySQL database."
-          deployedLink="https://example.com/project3"
+          deployedLink="https://drive.google.com/file/d/19U_q5wNIbvS7Db3rHW7KwA2PSD8MOJJe/view"
           githubLink="https://github.com/Seicram/E-commerce-Back-End"
         />
         <Project
@@ -122,14 +122,14 @@ const Portfolio = () => {
           title="Text Editor"
           image="../img/texteditor.png"
           description="This application is a text editor that allows the user to create, edit, and save text files. This application uses Node.js, Electron, and the Ace editor."
-          deployedLink="https://example.com/Text Editor"
+          deployedLink="https://text-editor-smith-e70e0b0c60df.herokuapp.com/"
           githubLink="https://github.com/Seicram/Text-Editor"
         />
         <Project
           title="React Portfolio"
           image="../img/react.png"
           description="This application is a portfolio that uses React. This application uses React components, JSX, and React props."
-          deployedLink="https://example.com/React Portfolio"
+          deployedLink="https://react-portfolio-smith-6c019288755c.herokuapp.com/"
           githubLink="https://github.com/Seicram/React-Portfolio"
         />
         <Project
@@ -137,7 +137,7 @@ const Portfolio = () => {
           image="../img/booksearch.png"
           description="This application is a book search engine that uses the Google Books API. This application uses the MERN stack with a React front end, MongoDB database, and Node.js/Express.js server and API."
           deployedLink="https://example.com/Book Search Engine"
-          githubLink="https://example.com/Book-Search-Engine"
+          githubLink="https://github.com/Seicram/Book-Search-Engine"
         />
         <Project
           title="Extra Credit Assignment"
