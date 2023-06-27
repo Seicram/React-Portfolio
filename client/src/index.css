@@ -1,0 +1,513 @@
+/* Global styles for the entire application */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(45deg, #FFD699 25%, #AFAFAF 50%, #FFD699 75%);
+  padding: 10px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  background: linear-gradient(45deg, #FFD699 25%, #AFAFAF 50%, #FFD699 75%);
+  padding: 10px;
+  text-align: center;
+}
+
+header a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Booking.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Directions.css */
+.container {
+  margin-top: 5px;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50px;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.search-container {
+  margin-top: 1%;
+  margin-bottom: 75px;
+  display: center;
+  margin-right: auto;
+  margin-left: auto;
+  background: linear-gradient(45deg, #c9ddb7 25%, #dcdcdc 50%, #b4c4d7 75%);
+}
+
+.search-container input[type="text"] {
+  margin-right: 40px;
+}
+
+.map-container {
+  height: 450px;
+  margin-bottom: 50px;
+}
+
+.search-history-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.search-history-popup {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.search-history-popup h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.search-history-popup ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.search-history-popup li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.search-history-popup button {
+  margin-right: 10px;
+}
+
+.search-history-popup button:last-child {
+  margin-right: 0;
+}
+
+.search-history-popup p {
+  margin-bottom: 10px;
+}
+
+.search-history-popup button,
+.search-history-popup p {
+  font-size: 14px;
+}
+
+.search-history-popup button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
+}
+
+.search-history-popup button:hover {
+  background-color: #1976d2;
+}
+
+.search-history-button {
+  position: absolute;
+  top: 100px;
+  right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #fff;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.search-history-button:hover {
+  background-color: #1976d2;
+}
+
+body {
+  padding: 20px;
+  background-image: linear-gradient(45deg, #c9ddb7 25%, #dcdcdc 50%, #b4c4d7 75%);
+}
+
+.container {
+  border: 1px solid #ccc;
+  padding: 0px;
+}
+
+/* HomePage.css */
+.page-container {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.feature {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.feature h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.feature p {
+  margin-bottom: 0;
+}
+
+.feature:last-child {
+  grid-column: 1 / inherit;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Journal.css */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #FFD699 25%, #AFAFAF 50%, #FFD699 75%);
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #ffd699;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  animation: rotate-colors 8s infinite;
+  text-align: center;
+}
+
+@keyframes rotate-colors {
+  0% {
+    color: #ffd699;
+  }
+  20% {
+    color: #add8e6;
+  }
+  40% {
+    color: #cfa8c4;
+  }
+  60% {
+    color: #2e8b57;
+  }
+  80% {
+    color: #ffd699;
+  }
+}
+
+.title-input {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+  background-color: #f2f2f2;
+}
+
+.title-input:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}
+
+.entry-textarea {
+  width: 100%;
+  height: 300px;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+  transition: border-color 0.3s ease;
+  background-color: #f2f2f2;
+}
+
+.entry-textarea:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.5);
+}
+
+.buttons-container {
+  margin-top: 20px;
+}
+
+.save-button,
+.clear-button,
+.edit-button,
+.delete-button,
+.navigation-button,
+.new-note-button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+.save-button {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.save-button:hover {
+  background-color: #45a049;
+}
+
+.clear-button {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+.clear-button:hover {
+  background-color: #e69138;
+}
+
+.edit-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background-color: #1976d2;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
+
+.journal-entries {
+  margin-top: 5vh;
+  text-align: left;
+  margin-left: 0;
+}
+
+.journal-entries-card {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: transparent;
+  border: transparent;
+  border-radius: 4px;
+  box-shadow: transparent;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.journal-entries-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.journal-entries-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.journal-entries-card li {
+  margin-bottom: 10px;
+}
+
+.journal-entries-card li .entry-title {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.journal-entries-card li .entry-date {
+  display: block;
+  font-size: 14px;
+  color: #777;
+}
+
+.journal-entries-card li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.journal-entries-card li a:hover {
+  text-decoration: underline;
+}
+
+.no-entries-message {
+  font-size: 18px;
+  margin-top: 20px;
+  color: #777;
+}
+
+.entry-details {
+  margin-top: 5vh;
+  text-align: left;
+  margin-left: 0;
+}
+
+.entry-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.entry-details p {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.entry-details .entry-date {
+  font-size: 14px;
+  color: #777;
+}
+
+.entry-details .back-button {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.entry-details .back-button:hover {
+  background-color: #1976d2;
+}
+
+/* Styles for other pages go here */
+

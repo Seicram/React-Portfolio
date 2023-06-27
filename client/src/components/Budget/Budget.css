@@ -1,0 +1,50 @@
+.travel-budget {
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .sub-title {
+    font-size: 1rem;
+  }
+  
+  .budget-container {
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+  }
+  
+  .expense-input {
+    width: 6rem;
+    font-size: 1rem;
+  }
+  
+  .calculate-button {
+    font-size: 0.7rem;
+  }
+  
+  .total-label {
+    font-size: 1rem;
+  }
+  
+  .total-input {
+    width: 6rem;
+    font-size: 1rem;
+  }
+  
+  .currency-select {
+    width: 6rem;
+    font-size: 1rem;
+  }
+  
+  .amount-input {
+    width: 6rem;
+    font-size: 1rem;
+  }
+  
+  .converted-amount {
+    font-size: 1rem;
+  }
+  

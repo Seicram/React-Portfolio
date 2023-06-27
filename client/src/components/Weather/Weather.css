@@ -1,0 +1,92 @@
+.forecast-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px; /* Adjust the value as needed for spacing between cards */
+  flex-wrap: wrap;
+}
+
+.forecast-card {
+  width: 200px;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  background-color: #f8f8f8;
+}
+
+
+.card-front {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.day-of-week {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.weather-icon {
+  width: 120px;
+  height: 120px;
+}
+
+.forecast-title {
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#weather-container {
+  margin: 20px;
+}
+
+.weather-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.weather-card h2 {
+  margin: 0;
+}
+
+.forecast-card .card-front img {
+  width: 50px;
+  height: 50px;
+}
