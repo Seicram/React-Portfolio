@@ -28,7 +28,7 @@ const registerUser = async (req, res) => {
   }
 };
 
-// Login a user
+// Login a user,
 const loginUser = async (req, res) => {
   try {
     const { email, password } = req.body; // get email and password from req.body
