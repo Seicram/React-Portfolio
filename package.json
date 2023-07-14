@@ -1,33 +1,23 @@
 {
-  "name": "test-destination-rendezvous---copy",
+  "name": "social-network-api",
   "version": "1.0.0",
   "description": "",
   "homepage": "",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^14.0.0",
-    "@testing-library/user-event": "^14.4.3",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.0",
-    "currency": "^4.1.0",
-    "currency-symbol-map": "^5.1.0",
-    "google-translate-api": "^2.3.0",
-    "leaflet": "^1.9.4",
-    "leaflet-routing-machine": "^3.2.12",
-    "mapbox-gl": "^2.15.0",
-    "money": "^0.2.0",
     "react": "^18.2.0",
     "react-devtools": "^4.27.8",
     "react-dom": "^18.2.0",
-    "react-leaflet": "^4.2.1",
-    "react-router-dom": "^6.14.0",
+    "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
-    "three": "^0.153.0",
-    "weatherapi": "^0.0.8",
-    "web-vitals": "^3.3.2"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "cd client && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -38,15 +28,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ],
-    "plugins": [
-      "react",
-      "react-hooks"
-    ],
-    "rules": {
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn"
-    }
+    ]
   },
   "browserslist": {
     "production": [
@@ -59,21 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "assert": "^2.0.0",
-    "constants-browserify": "^1.0.0",
-    "eslint": "^8.43.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "https-browserify": "^1.0.0",
-    "os-browserify": "^0.3.0",
-    "path-browserify": "^1.0.1",
-    "stream-browserify": "^3.0.0",
-    "stream-http": "^3.2.0",
-    "util": "^0.12.5",
-    "vm-browserify": "^1.1.2",
-    "webpack": "^5.88.0",
-    "webpack-cli": "^5.1.4"
   }
 }

@@ -1,0 +1,75 @@
+/* App.css */
+
+.App {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  form input,
+  form textarea {
+    width: 55%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+body {
+  animation: rotateBackground 10s linear infinite;
+}
+
+@keyframes rotateBackground {
+  0% {
+    background-color: #8e9775; /* Color 1 */
+  }
+  25% {
+    background-color: #625b57; /* Color 2 */
+  }
+  50% {
+    background-color: #b7a184; /* Color 3 */
+  }
+  75% {
+    background-color: #4a615d; /* Color 4 */
+  }
+  100% {
+    background-color: #8e9775; /* Color 1 */
+  }
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  text-align: center;
+}
