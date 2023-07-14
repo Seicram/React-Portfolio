@@ -59,14 +59,14 @@ const Portfolio = () => {
           title="Professional README Generator"
           image="../img/readgen.png"
           description="This application can be used to generate a professional README file. This application uses Node.js and the Inquirer package."
-          videoLink="https://drive.google.com/file/d/1rbYl8EnpOadKCG-fVWsFafVW2oySTYUk/view"
+          deployedLink="https://drive.google.com/file/d/1rbYl8EnpOadKCG-fVWsFafVW2oySTYUk/view"
           githubLink="https://github.com/Seicram/Professional-README-Generator"
         />
         <Project
           title="SVG Logo Maker"
           image="../img/svglogo.png"
           description="This application can be used to create a logo using SVG elements. This application uses Node.js, Inquirer, and SVG.js."
-          videoLink="https://drive.google.com/file/d/1So-WQX4MdkvM_4VQFqJXwZ4IC_YpS-UC/view"
+          deployedLink="https://drive.google.com/file/d/1So-WQX4MdkvM_4VQFqJXwZ4IC_YpS-UC/view"
           githubLink="https://github.com/Seicram/SVG-Logo-Maker-"
         />
         <Project
@@ -80,14 +80,14 @@ const Portfolio = () => {
           title="Employee Tracker"
           image="../img/employee.png"
           description="This application can be used to manage a company's employees using node, inquirer, and MySQL. This application allows the user to view and manage the departments, roles, and employees in the company."
-          videoLink=" https://drive.google.com/file/d/1Ab8MbkMVzPaKA-zCN4lqUoPPHxh4etNb/view"
+          deployedLink=" https://drive.google.com/file/d/1Ab8MbkMVzPaKA-zCN4lqUoPPHxh4etNb/view"
           githubLink="https://github.com/Seicram/Employee-Tracker"
         />
         <Project
           title="E-commerce Back End"
           image="../img/ecommerce.png"
           description="This application can be used to manage the back end of an e-commerce site. This application uses Express.js API and Sequelize to interact with a MySQL database."
-          videoLink="https://drive.google.com/file/d/19U_q5wNIbvS7Db3rHW7KwA2PSD8MOJJe/view"
+          deployedLink="https://drive.google.com/file/d/19U_q5wNIbvS7Db3rHW7KwA2PSD8MOJJe/view"
           githubLink="https://github.com/Seicram/E-commerce-Back-End"
         />
         <Project
