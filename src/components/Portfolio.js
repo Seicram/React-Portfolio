@@ -149,6 +149,7 @@ const Portfolio = () => {
         <Project
           title="JourneyVerse"
           image="../img/JourneyVerse.png"
+          description="Simplifying travel planning and logistics with friends through collaborative trip coordination in one intuitive app."
           deployedLink="https://journeyverse-2c53482d7e17.herokuapp.com/"
           githubLink="https://github.com/pexApred/journeyVerse"
         />
